@@ -16,7 +16,7 @@ function Meal() {
   
   function display (data){
   
-   var oldContent = document.getElementById("col")
+   var oldContent = document.getElementById("container")
    var userLimit = document.getElementById("limit").value ;
     userLimit=parseInt(userLimit);
     document.getElementById("limit").value = " "; 
@@ -25,7 +25,6 @@ function Meal() {
     
      var newDiv = document.createElement("div");
      newDiv.innerHTML = `
-     
      <div class="card" style="width: 18rem;">
     <img src="${data.meals[a].strMealThumb}" class="card-img-top" alt="...">
     <div class="card-body">
