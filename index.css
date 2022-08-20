@@ -1,0 +1,65 @@
+body{
+    background-image: url('/bg.jpg');
+   height: 650px;
+
+}
+
+.title{
+    color: white;
+    text-shadow: 1px 1px gray;
+    font-size: 80px;
+}
+.container{
+    
+}
+.child1{
+   
+   display: flex;
+   justify-content: center;
+}
+input{
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    padding: 20px;
+    
+}
+
+input:focus{
+    color: orange;
+    border: 2px solid orange;
+}
+Button {
+    background-color: orange;
+    border-radius: 28px;
+    border: 1px solid orange;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 16px 31px;
+    text-decoration: none;
+    
+}
+
+Button:hover {
+    background-color: #bf662a;
+}
+Button:active {
+    position: relative;
+    top: 1px;
+}
+.card{
+    margin: 40px;
+    padding: 20px;
+    height: 600px !important;
+    width: 400px !important;
+    overflow-y: scroll;
+
+}
+#container{
+    max-height: 400px;
+    justify-self: center;
+    padding: 40px;
+}
